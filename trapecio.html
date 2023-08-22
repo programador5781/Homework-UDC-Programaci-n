@@ -1,0 +1,90 @@
+<DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="css/estilos.css">
+          <link rel="stylesheet" href="css/BGtrapecio.css">
+          <link rel="stylesheet" href="css/estilosrc.css">            
+          <link href="https://file.myfontastic.com/d5aJWqPTzNSs3zmSdwj9Tc/icons.css" rel="stylesheet">
+  
+          <title>Trapecio</title>
+      </head>
+      <body>
+              <nav class="main-nav">
+                  <div class="container container--flex">
+                      <span class="icon-menu" id="btnmenu"></span>
+                      <ul class="menu" id="menu">
+                          <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                          <li class="menu__item"><a href="actividades.html" class="menu__link menu__link--select">Actividades</a></li>
+                          <li class="menu__item"><a href="Nosotros.html" class="menu__link">Nosotros</a></li>
+                         
+                      </ul>
+                      <div class="social-icon">
+                          <a href="https://youtu.be/UVy8l2CPtvc" target="_blank" class="social-icon__link"><span class="icon-youtube"></span></a>
+                          <a href="#" class="social-icon__link"><span class="icon-instagram"></span></a>
+                          <a href="mailto:programador5781@gmail.com" class="social-icon__link"><span class="icon-mailwhite"></span></a>
+                      </div>
+                  </div>
+              </nav>
+          
+              <div class="contenedor--title">
+                  <p class="title_udc">team UDC society</p>   
+                  <div class="contenedor--title--hm">
+                          <h6>¡Hola Mundo, Hello World!.....<span> &#160;</span></h6>
+                  </div>
+              </div> 
+  
+              <form class="contenido">
+                  <div class="titulo">
+                      <p>Maloka</p>
+                  </div>
+  
+                  <div class="description">
+                      <p>Maloka es un museo interactivo sobre ciencia y tecnología ubicado 
+                        en el barrio Ciudad Salitre en la localidad de Fontibón de Bogotá, 
+                        Colombia. El sitio abrió sus puertas el 6 de agosto de 1998. Su Domo
+                        es muy interesante, hablando geométricamente, seguramente en su interior
+                        si que hallaremos un trapecio.
+                      </p><br>            
+                      
+                  </div>                
+              </form>
+  
+              <div class="resultado"> 
+                  <!-- Área de un Trapecio -->
+                  <h3>AREA DE UN TRAPECIO</h3>
+                  <p class="text_ac">Fórmula A = h (B+b)/2</p>
+                  <p class="text_ac">h = altura , B = Base mayor , b = base menor</p>
+
+                  <input class="input" type="number" id="altura" placeholder="Altura">
+                  <input class="input" type="number" id="Base" placeholder="Base">
+                  <input class="input" type="number" id="base" placeholder="base menor">
+                  <button onclick="obtenerArea()">Calcular área</button>
+                  <br><br>
+                  <p class="result">resultado: <output id="areaResultado"></output></p>
+                  
+                  <!-- Perimetro de un Trapecio -->
+                  <h3>PERIMETRO DE UN TRAPECIO</h3>
+
+                  <input class="input" type="number" id="l" placeholder="lado 1">
+                  <input class="input" type="number" id="m" placeholder="lado 2">
+                  <input class="input" type="number" id="n" placeholder="lado 3">
+                  <input class="input" type="number" id="o" placeholder="lado 4">
+                  <button onclick="obtenerPerimetro()">Calcular Perimetro</button>
+                  <br><br>
+                  <p class="result">resultado: <output id="perimetroResultado"></output></p>
+              </div>
+              <br> 
+              
+              <footer >
+                  <p class="copy"> ® 2022 teamUDCsociety | Todos los derechos reservados</p>    
+              </footer>
+              
+              <!-- Scripts -->
+              <script src='js/menu.js'></script>
+              <script src="js/trapecio.js"></script>
+      </body>
+  
+  </html>

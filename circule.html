@@ -1,0 +1,86 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/BGCircule.css">
+        <link rel="stylesheet" href="css/estilosrc.css">       
+        <link href="https://file.myfontastic.com/d5aJWqPTzNSs3zmSdwj9Tc/icons.css" rel="stylesheet">
+
+        <title>Círculo</title>
+    </head>
+    <body>
+            <nav class="main-nav">
+                <div class="container container--flex">
+                    <span class="icon-menu" id="btnmenu"></span>
+                    <ul class="menu" id="menu">
+                        <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                        <li class="menu__item"><a href="actividades.html" class="menu__link menu__link--select">Actividades</a></li>
+                        <li class="menu__item"><a href="Nosotros.html" class="menu__link">Nosotros</a></li>
+                        
+                    </ul>
+                    <div class="social-icon">
+                        <a href="https://youtu.be/UVy8l2CPtvc" target="_blank" class="social-icon__link"><span class="icon-youtube"></span></a>
+                        <a href="#" class="social-icon__link"><span class="icon-instagram"></span></a>
+                        <a href="mailto:programador5781@gmail.com" class="social-icon__link"><span class="icon-mailwhite"></span></a>
+                    </div>
+                </div>
+            </nav>
+        
+            <div class="contenedor--title">
+                <p class="title_udc">team UDC society</p>   
+                <div class="contenedor--title--hm">
+                        <h6>¡Hola Mundo, Hello World!.....<span> &#160;</span></h6>
+                </div>
+            </div> 
+
+            <form class="contenido">
+                <div class="titulo">
+                    <p>The London Eye</p>
+                </div>
+
+                <div class="description">
+                    <p>Conocida como Millennium Wheel (Rueda del Milenio), The London Eye es un logro del diseño
+                         y la ingeniería, construido a lo largo de siete años por cientos de trabajadores 
+                         provenientes de cinco países diferentes.
+                         Tras su inauguración en el año 2000, la sorprendente noria de 135 metros de altura 
+                         conocida como The London Eye (El Ojo de Londres) se ha convertido en uno de los iconos 
+                         más emblemáticos de la ciudad y de toda Gran Bretaña. Es un circulo perfecto!  
+                         Cálcula su área, vamos! su radio aproximado es de 74m.
+                    </p><br>            
+                    
+                </div>                
+            </form>
+
+            <div class="resultado">                
+
+                <h3>AREA DE UN CIRCULO</h3>
+                <p id="text_ac">A = area , P = perímetro , r = radio   <math>   A = π * r<sup>2</sup></math></p>
+                <input type="number" id="radio" placeholder="Radio">       
+                <button onclick="obtenerArea()">Calcular área</button>                    
+                <p class="result">resultado: <output id="areaResultado"></output></p>
+                <div></div>
+
+                <h3>PERIMETRO DE UNA CIRCUNFERENCIA</h3>
+                <input type="number" id="d" placeholder="diametro">                
+                <button onclick="obtenerPerimetro()">Calcular Perimetro</button>
+                <br><br>
+                <p class="result">resultado: <output id="perimetroResultado"></output> </p>
+                
+            </div>
+            <br> 
+            
+            <footer >
+                <p class="copy"> ® 2022 teamUDCsociety | Todos los derechos reservados</p>    
+            </footer>
+
+            
+
+            
+            <script src='js/menu.js'></script>
+            <script src="js/circulo.js"></script>
+    </body>
+
+</html>

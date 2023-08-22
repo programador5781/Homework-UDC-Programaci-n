@@ -1,0 +1,93 @@
+<DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="css/estilos.css">
+          <link rel="stylesheet" href="css/BGpentagono.css">
+          <link rel="stylesheet" href="css/estilosrc.css">            
+          <link href="https://file.myfontastic.com/d5aJWqPTzNSs3zmSdwj9Tc/icons.css" rel="stylesheet">
+  
+          <title>Pentágono</title>
+      </head>
+      <body>
+              <nav class="main-nav">
+                  <div class="container container--flex">
+                      <span class="icon-menu" id="btnmenu"></span>
+                      <ul class="menu" id="menu">
+                          <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                          <li class="menu__item"><a href="actividades.html" class="menu__link menu__link--select">Actividades</a></li>
+                          <li class="menu__item"><a href="Nosotros.html" class="menu__link">Nosotros</a></li>
+                          
+                      </ul>
+                      <div class="social-icon">
+                          <a href="https://youtu.be/UVy8l2CPtvc" target="_blank" class="social-icon__link"><span class="icon-youtube"></span></a>
+                          <a href="#" class="social-icon__link"><span class="icon-instagram"></span></a>
+                          <a href="mailto:programador5781@gmail.com" class="social-icon__link"><span class="icon-mailwhite"></span></a>
+                      </div>
+                  </div>
+              </nav>
+          
+              <div class="contenedor--title">
+                  <p class="title_udc">team UDC society</p>   
+                  <div class="contenedor--title--hm">
+                          <h6>¡Hola Mundo, Hello World!.....<span> &#160;</span></h6>
+                  </div>
+              </div> 
+  
+              <form class="contenido">
+                  <div class="titulo">
+                      <p>El Pentágono</p>
+                  </div>
+  
+                  <div class="description">
+                      <p>El Pentágono (en inglés, The Pentagon) es la sede del Departamento de Defensa de los Estados Unidos,
+                         ubicado en el condado de Arlington, Virginia, cerca de Washington D. C. El edificio tiene forma de 
+                         pentágono y en él trabajan aproximadamente 23 000 empleados militares y civiles,1​ y cerca de 3000 
+                         miembros de personal de apoyo. Tiene 12 pisos, 5 de los cuales incluyen en sí cinco corredores, 
+                         el resto es desconocido.
+                      </p><br>            
+                      
+                  </div>                
+              </form>
+  
+              <div class="resultado">               
+
+                  <!-- Área de un Pentágono -->
+                  <h3>AREA DE UN PENTÁGONO</h3>
+                  <p class="text_ac">Fórmula A = (P * a)/2</p>
+                  <p class="text_ac">A = area , P = perimetro , a = apotema</p>
+                  <input type="number" id="perimetro" placeholder="Perimetro">
+                  <input type="number" id="apotema" placeholder="Apotema">
+                  <button onclick="obtenerArea()">Calcular área</button>
+                  <br><br>
+                  <p class="result">resultado: <output id="areaResultado"></output></p>
+                 
+                  <!-- Perimetro de un Pentágono -->
+                  <h3>PERIMETRO DE UN PENTAGONO</h3>
+
+                  <input type="number" id="l" placeholder="lado">
+                  
+                  <button onclick="obtenerPerimetro()">Calcular Perimetro</button>
+                  <br><br>
+                  <p class="result">resultado: <output id="perimetroResultado"></output></p>
+                  <!-- <label>Perímetro Calculado: </label>
+                  <div id="perimetroResultado">
+                  </div>                  -->
+                  
+              </div>
+              <br> 
+              
+              <footer >
+                  <p class="copy"> ® 2022 teamUDCsociety | Todos los derechos reservados</p>    
+              </footer>
+  
+              
+  
+              
+              <script src='js/menu.js'></script>
+              <script src="js/pentagono.js"></script>
+      </body>
+  
+  </html>

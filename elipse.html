@@ -1,0 +1,83 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/estilos.css">
+            <link rel="stylesheet" href="css/BGelipse.css">
+            <link rel="stylesheet" href="css/estilosrc.css">            
+            <link href="https://file.myfontastic.com/d5aJWqPTzNSs3zmSdwj9Tc/icons.css" rel="stylesheet">
+    
+            <title>Elipse</title>
+        </head>
+        <body>
+                <nav class="main-nav">
+                    <div class="container container--flex">
+                        <span class="icon-menu" id="btnmenu"></span>
+                        <ul class="menu" id="menu">
+                            <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                            <li class="menu__item"><a href="actividades.html" class="menu__link menu__link--select">Actividades</a></li>
+                            <li class="menu__item"><a href="Nosotros.html" class="menu__link">Nosotros</a></li>
+                            
+                        </ul>
+                        <div class="social-icon">
+                            <a href="https://youtu.be/UVy8l2CPtvc" target="_blank" class="social-icon__link"><span class="icon-youtube"></span></a>
+                            <a href="#" class="social-icon__link"><span class="icon-instagram"></span></a>
+                            <a href="mailto:programador5781@gmail.com" class="social-icon__link"><span class="icon-mailwhite"></span></a>
+                        </div>
+                    </div>
+                </nav>
+            
+                <div class="contenedor--title">
+                    <p class="title_udc">team UDC society</p>   
+                    <div class="contenedor--title--hm">
+                            <h6>¡Hola Mundo, Hello World!.....<span> &#160;</span></h6>
+                    </div>
+                </div> 
+    
+                <form class="contenido">
+                    <div class="titulo">
+                        <p>Estadio Metropolitano de Barranquilla</p>
+                    </div>
+    
+                    <div class="description">
+                        <p>El Estadio Metropolitano Roberto Meléndez es un escenario para la 
+                            práctica del fútbol y el atletismo en Barranquilla, Colombia. 
+                            Fue inaugurado el 11 de mayo de 1986, sustituyendo al estadio 
+                            Romelio Martínez como principal escenario para la práctica del 
+                            fútbol y como sede del Atlético Junior. Es una Elipse!
+                        </p><br>            
+                        
+                    </div>                
+                </form>
+    
+                <div class="resultado">                
+    
+                    <h3>AREA DE UNA ELIPSE</h3>
+                    <p>fórmula <math> A = π * S + s</math></p>
+                    <p>A = area , π = 3.1416 , S = Semieje mayor s = semieje menor</p>
+
+                    <input type="number" id="S" placeholder="Semieje mayor">
+                    <input type="number" id="s" placeholder="semieje menor">
+                    
+                    <button onclick="obtenerArea()">Calcular área</button>
+                    <br><br>
+                    <p class="result">resultado: <output id="areaResultado"></output></p>
+                               
+                    
+                </div>
+                <br> 
+                
+                <footer >
+                    <p class="copy"> ® 2022 teamUDCsociety | Todos los derechos reservados</p>    
+                </footer>
+    
+                
+    
+                
+                <script src='js/menu.js'></script>
+                <script src="js/elipse.js"></script>
+        </body>
+    
+    </html>
